@@ -1,0 +1,46 @@
+// ОБНУЛЯЮЩИЕ СТИЛИ
+@import "nullstyle.scss";
+
+
+// ПОДКЛЮЧАЕМЫЕ ШРИФТЫ
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@font-face {
+	font-family: 'Bungee Outline';
+	src: url('../fonts/BungeeOutline-Regular.eot');
+	src: local('☺'), url('../fonts/BungeeOutline-Regular.woff') format('woff'), url('../fonts/BungeeOutline-Regular.ttf') format('truetype'), url('../fonts/BungeeOutline-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+	src: url('../fonts/KaushanScript-Regular.eot');
+	src: local('☺'), url('../fonts/KaushanScript-Regular.woff') format('woff'), url('../fonts/KaushanScript-Regular.ttf') format('truetype'), url('../fonts/KaushanScript-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Monoton';
+	src: url('../fonts/Monoton-Regular.eot');
+	src: local('☺'), url('../fonts/Monoton-Regular.woff') format('woff'), url('../fonts/Monoton-Regular.ttf') format('truetype'), url('../fonts/Monoton-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+// ПЕРЕМЕННЫЕ
+$font-JS: 'Josefin Sans', sans-serif;
+$font-BO: 'Bungee Outline';
+$font-KS: 'Kaushan Script';
+$font-MN: 'Monoton';
+$font-MT: 'Montserrat';
